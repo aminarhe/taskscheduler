@@ -43,9 +43,19 @@ This project tackles the complex problem of optimal task scheduling by implement
 
 **When time is constrained**: DP guarantees optimal task packing, while greedy may miss optimal combinations.
 
-**Empirical validation**: Comprehensive benchmarking across task set sizes (50-1000 tasks), time constraints, and dependency densities confirms theoretical complexity predictions.
+**Performance Benchmarks**
 
+<img src="./plots/flexible.png" width="600" alt="Runtime vs Number of Flexible tasks Experimental and Theoretical">
+<p><em>Runtime vs Number of Flexible tasks: Experimental and Theoretical</em></p>
 
+<img src="./plots/greedy.png" width="600" alt="Greedy Runtime vs Number of Flexible tasks Experimental and Theoretical">
+<p><em>Greedy. Runtime vs Number of Flexible tasks: Experimental and Theoretical</em></p>
+
+<img src="plots/fixedtasks.png" width="600" alt="Runtime vs Number of Fixed tasks">
+<p><em>Runtime vs Number of Fixed tasks</em></p>
+
+<img src="plots/dependencies.png" width="600" alt="Runtime vs Proportion of tasks with dependency">
+<p><em>Runtime vs Proportion of tasks with Dependencies rising</em></p>
 
 ## Usage Example
 
