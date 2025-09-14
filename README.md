@@ -45,6 +45,8 @@ This project tackles the complex problem of optimal task scheduling by implement
 
 **Empirical validation**: Comprehensive benchmarking across task set sizes (50-1000 tasks), time constraints, and dependency densities confirms theoretical complexity predictions.
 
+
+
 ## Usage Example
 
 ```python
@@ -70,21 +72,10 @@ display_schedule(greedy_schedule, "GREEDY", formatted_tasks, [])
 ```bash
 git clone https://github.com/yourusername/intelligent-task-scheduler
 cd intelligent-task-scheduler
-python scheduler.py
+jupyter notebook scheduler.ipynb
 ```
 
-**Requirements**: Python 3.7+, matplotlib (for performance plotting), numpy
-
-## Project Structure
-
-```
-├── scheduler.py          # Main implementation
-├── README.md            # This file
-├── LICENSE              # MIT License
-└── docs/
-    ├── full-analysis.pdf    # Complete academic analysis
-    └── performance-plots/   # Benchmark visualizations
-```
+**Requirements**: Python 3.7+, Jupyter Notebook, matplotlib, numpy
 
 ## Technical Highlights
 
